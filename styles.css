@@ -1,0 +1,50 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header, footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+header .contact {
+  margin-top: 1rem;
+}
+
+.two-columns {
+  display: flex;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.left-column,
+.right-column {
+  flex: 1;
+}
+
+.section {
+  padding: 1.5rem 1rem;
+}
+
+h2 {
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 1rem;
+}
+
+.box {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
